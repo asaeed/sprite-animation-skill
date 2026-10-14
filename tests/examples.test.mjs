@@ -8,7 +8,7 @@ const root=new URL('../',import.meta.url),base=new URL('examples/dead-zone/',roo
 const manifest=JSON.parse(fs.readFileSync(new URL('manifest.json',base),'utf8'));
 const previews=JSON.parse(fs.readFileSync(new URL('previews.json',base),'utf8')).previews;
 test('examples contain exactly two humans, two zombies and the vehicle',()=>{
- assert.deepEqual(Object.keys(manifest.characters),['soldier','builder','walker','spitter','suv']);
+ assert.deepEqual(Object.keys(manifest.characters),['soldier','builder','walker','exploder','suv']);
  assert.equal(Object.values(manifest.characters).filter(c=>c.group==='unit').length,2);
  assert.equal(Object.values(manifest.characters).filter(c=>c.group==='zombie').length,2);
  assert.equal(manifest.characters.suv.group,'vehicle');
@@ -28,10 +28,13 @@ for(const[id,record]of Object.entries(manifest.characters))test(id+' source, fra
  const preview=previews.find(p=>p.id===id),turnaround=id==='suv';
  assert.equal(preview.frames,turnaround?8:record.clips.walk.directions.SE.length);
  assert.equal(preview.fps,turnaround?4:record.clips.walk.fps);
+ if(id==='exploder'){
+  assert.equal(preview.action,'run');assert.equal(record.sourceMotion,'Jog_Fwd_Loop');assert.equal(preview.fps,17);
+ }
  const gif=fs.readFileSync(new URL(preview.image,base));assert.match(gif.subarray(0,6).toString(),/^GIF8[79]a$/);
  assert.equal(gif.readUInt16LE(6),preview.width);assert.equal(gif.readUInt16LE(8),preview.height);
  const poster=fs.readFileSync(new URL(preview.poster,base));assert.equal(poster.readUInt32BE(16),192);assert.equal(poster.readUInt32BE(20),192);
- const frames=JSON.parse(fs.readFileSync(new URL(id+(turnaround?'-turnaround':'-walk')+'.json',base),'utf8'));
+ const frames=JSON.parse(fs.readFileSync(new URL(id+'-'+(turnaround?'turnaround':preview.action)+'.json',base),'utf8'));
  assert.equal(frames.length,preview.frames);
  frames.forEach((f,i)=>{
   const src=turnaround?record.clips.idle.directions[record.directions[i]][0]:record.clips.walk.directions.SE[i];

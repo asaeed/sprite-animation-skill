@@ -41,17 +41,17 @@
       "source": "sheets/walker.png"
     },
     {
-      "id": "spitter",
-      "action": "walk",
+      "id": "exploder",
+      "action": "run",
       "direction": "SE",
       "frames": 16,
-      "fps": 12,
-      "durationSeconds": 1.3333333333333333,
+      "fps": 17,
+      "durationSeconds": 0.9411764705882353,
       "width": 192,
       "height": 192,
-      "image": "spitter.gif",
-      "poster": "spitter.png",
-      "source": "sheets/spitter.png"
+      "image": "exploder.gif",
+      "poster": "exploder.png",
+      "source": "sheets/exploder.png"
     },
     {
       "id": "suv",

@@ -4,7 +4,7 @@ These five examples are derived from the delivered Dead Zone / Rigged Tactics gr
 
 ## Humanoids
 
-Soldier, builder, walker, and spitter are exact copies of delivered PNG atlases. The bundled manifest retains the delivered frame rectangles, pivots, cadence, and calibrated direction labels, with SHA-256 fingerprints of each source PNG. GIFs are enlarged southeast walk previews rendered from those cells; no new poses, model warps, or frame crossfades are introduced.
+Soldier, builder, walker, and exploder are exact copies of delivered PNG atlases. The bundled manifest retains the delivered frame rectangles, pivots, cadence, and calibrated direction labels, with SHA-256 fingerprints of each source PNG. GIFs are enlarged southeast locomotion previews rendered from those cells; no new poses, model warps, or frame crossfades are introduced. The Exploder uses its delivered `Jog_Fwd_Loop` running sequence at 17 FPS, stored under the game's `walk` clip name.
 
 Production used a Quaternius Universal Base Characters Kit skinned model and authored animation library. The supplied [character notice](character-license.txt) and [animation notice](animation-license.txt) identify those source assets as CC0 1.0. Original model/animation binaries are not bundled. The recipe, retargeting equations, attachments, contact constraints, packing, and review requirements are included in the skill's rigged-source reference.
 
@@ -22,7 +22,7 @@ The source notices concern the original character/animation assets; they do not 
 
 ## Rebuild
 
-`npm ci` followed by `npm run examples:render` recreates the GIFs, PNG posters, frame-inspection JSON files, and `previews.json` from the bundled assets. It requires a Chromium browser and FFmpeg. GIF timing is quantized to centiseconds by the format; the walk cadence remains the source cadence to that precision. One global palette per clip and no dithering avoid frame-to-frame palette changes and animated dither noise.
+`npm ci` followed by `npm run examples:render` recreates the GIFs, PNG posters, frame-inspection JSON files, and `previews.json` from the bundled assets. It requires a Chromium browser and FFmpeg. GIF timing is quantized to centiseconds by the format; each locomotion cadence remains the source cadence to that precision. One global palette per clip and no dithering avoid frame-to-frame palette changes and animated dither noise.
 
 ## Verification
 

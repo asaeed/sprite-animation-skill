@@ -34,7 +34,7 @@ try{
  await page.goto('http://127.0.0.1:'+server.address().port);
  framesDir=await fs.mkdtemp(path.join(tmpdir(),'sprite-readme-frames-'));
  for(const[id,record]of Object.entries(manifest.characters)){
-  const turnaround=id==='suv',action=turnaround?'idle':'walk',fps=turnaround?4:record.clips.walk.fps;
+  const turnaround=id==='suv',action=turnaround?'idle':'walk',motion=record.previewMotion??action,fps=turnaround?4:record.clips.walk.fps;
   const frames=turnaround?record.directions.map(direction=>record.clips.idle.directions[direction][0]):record.clips.walk.directions.SE;
   const images=await page.evaluate(async({id,record,frames})=>{
    const image=new Image();image.src='/examples/dead-zone/'+record.image;await image.decode();
@@ -58,8 +58,8 @@ try{
    '-loop','0',path.join(output,id+'.gif')]);
   const inspection=frames.map((frame,i)=>({id:id+'/'+action+'/'+(turnaround?record.directions[i]:'SE')+'/'+i,
    rect:{x:frame.x,y:frame.y,w:frame.width,h:frame.height},anchor:record.footAnchor,durationMs:1000/fps}));
-  await fs.writeFile(path.join(output,id+(turnaround?'-turnaround':'-walk')+'.json'),JSON.stringify(inspection,null,2)+'\n');
-  previews.push({id,action:turnaround?'directional-turnaround':'walk',direction:turnaround?'all':'SE',
+  await fs.writeFile(path.join(output,id+'-'+(turnaround?'turnaround':motion)+'.json'),JSON.stringify(inspection,null,2)+'\n');
+  previews.push({id,action:turnaround?'directional-turnaround':motion,direction:turnaround?'all':'SE',
    frames:frames.length,fps,durationSeconds:frames.length/fps,width:192,height:192,
    image:id+'.gif',poster:id+'.png',source:record.image});
  }

@@ -10,15 +10,15 @@ Final Dead Zone / Rigged Tactics sprites, enlarged for inspection. These are act
 | --- | --- |
 | <img src="examples/dead-zone/soldier.gif" width="128" height="128" alt="Soldier's sixteen-frame walking cycle"> | <img src="examples/dead-zone/builder.gif" width="128" height="128" alt="Builder's sixteen-frame walking cycle"> |
 
-| Walker | Spitter |
+| Walker | Running Exploder |
 | --- | --- |
-| <img src="examples/dead-zone/walker.gif" width="128" height="128" alt="Grey zombie walking cycle"> | <img src="examples/dead-zone/spitter.gif" width="128" height="128" alt="Spitter walking cycle with bright green markers"> |
+| <img src="examples/dead-zone/walker.gif" width="128" height="128" alt="Grey zombie walking cycle"> | <img src="examples/dead-zone/exploder.gif" width="128" height="128" alt="Exploder running cycle with bright orange markers"> |
 
 **White SUV: eight-view turnaround**
 
 <img src="examples/dead-zone/suv.gif" width="128" height="128" alt="White SUV stepping through eight directional poses">
 
-The vehicle has directional poses, not a wheel-animation clip. [PNG posters](examples/dead-zone/), [complete source sheets](examples/dead-zone/sheets/), [example details](references/dead-zone.md), and [provenance/source notices](examples/dead-zone/PROVENANCE.md) are included. Each humanoid source sheet retains all delivered actions and directions, beyond the walk shown here.
+The vehicle has directional poses, not a wheel-animation clip. [PNG posters](examples/dead-zone/), [complete source sheets](examples/dead-zone/sheets/), [example details](references/dead-zone.md), and [provenance/source notices](examples/dead-zone/PROVENANCE.md) are included. Each humanoid source sheet retains all delivered actions and directions, beyond the locomotion shown here.
 
 ## Install
 
@@ -70,7 +70,7 @@ npm run examples:render
 
 This uses only the included sheets and metadata. FFmpeg must be on `PATH`; set `FFMPEG_PATH` for a different executable. Browser autodetection covers common macOS/Linux Chrome/Chromium locations; set `SPRITE_BROWSER_EXECUTABLE` when needed, including on Windows. The inspection helper also accepts `--chrome /path/to/browser`.
 
-The README GIFs use the real sixteen-frame walk cycles and their recorded frame rates. The SUV cycles through eight static facings. Export preserves fixed anchors and uses one palette per GIF; it does not regenerate or deform the artwork. Animated GIFs display directly in GitHub's README; PNG posters are included for static use.
+The README GIFs use the real sixteen-frame locomotion cycles and their recorded frame rates, including the Exploder's 17 FPS run. The SUV cycles through eight static facings. Export preserves fixed anchors and uses one palette per GIF; it does not regenerate or deform the artwork. Animated GIFs display directly in GitHub's README; PNG posters are included for static use.
 
 ## Test Installation
 
