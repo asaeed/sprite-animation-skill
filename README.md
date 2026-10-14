@@ -8,15 +8,15 @@ Final Dead Zone / Rigged Tactics sprites, enlarged for inspection. These are act
 
 | Soldier | Builder |
 | --- | --- |
-| <img src="examples/dead-zone/soldier.gif" width="160" height="160" alt="Soldier's sixteen-frame walking cycle"> | <img src="examples/dead-zone/builder.gif" width="160" height="160" alt="Builder's sixteen-frame walking cycle"> |
+| <img src="examples/dead-zone/soldier.gif" width="128" height="128" alt="Soldier's sixteen-frame walking cycle"> | <img src="examples/dead-zone/builder.gif" width="128" height="128" alt="Builder's sixteen-frame walking cycle"> |
 
 | Walker | Spitter |
 | --- | --- |
-| <img src="examples/dead-zone/walker.gif" width="160" height="160" alt="Grey zombie walking cycle"> | <img src="examples/dead-zone/spitter.gif" width="160" height="160" alt="Spitter walking cycle with bright green markers"> |
+| <img src="examples/dead-zone/walker.gif" width="128" height="128" alt="Grey zombie walking cycle"> | <img src="examples/dead-zone/spitter.gif" width="128" height="128" alt="Spitter walking cycle with bright green markers"> |
 
 **White SUV: eight-view turnaround**
 
-<img src="examples/dead-zone/suv.gif" width="160" height="160" alt="White SUV stepping through eight directional poses">
+<img src="examples/dead-zone/suv.gif" width="128" height="128" alt="White SUV stepping through eight directional poses">
 
 The vehicle has directional poses, not a wheel-animation clip. [PNG posters](examples/dead-zone/), [complete source sheets](examples/dead-zone/sheets/), [example details](references/dead-zone.md), and [provenance/source notices](examples/dead-zone/PROVENANCE.md) are included. Each humanoid source sheet retains all delivered actions and directions, beyond the walk shown here.
 
