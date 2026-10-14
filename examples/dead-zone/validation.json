@@ -1,0 +1,566 @@
+[
+  {
+    "id": "soldier",
+    "count": 16,
+    "unique": 16,
+    "durations": [
+      0.06,
+      0.07,
+      0.06,
+      0.06,
+      0.06,
+      0.07,
+      0.06,
+      0.06,
+      0.06,
+      0.07,
+      0.06,
+      0.06,
+      0.06,
+      0.07,
+      0.06,
+      0.06
+    ],
+    "bounds": [
+      {
+        "minX": 65,
+        "minY": 54,
+        "maxX": 130,
+        "maxY": 168
+      },
+      {
+        "minX": 64,
+        "minY": 54,
+        "maxX": 131,
+        "maxY": 168
+      },
+      {
+        "minX": 63,
+        "minY": 53,
+        "maxX": 131,
+        "maxY": 168
+      },
+      {
+        "minX": 67,
+        "minY": 52,
+        "maxX": 131,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 52,
+        "maxX": 132,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 51,
+        "maxX": 132,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 52,
+        "maxX": 131,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 53,
+        "maxX": 131,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 54,
+        "maxX": 130,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 55,
+        "maxX": 130,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 55,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 54,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 53,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 52,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 53,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 69,
+        "minY": 53,
+        "maxX": 130,
+        "maxY": 168
+      }
+    ],
+    "sourceCells": 512,
+    "blank": 0,
+    "clipped": 0
+  },
+  {
+    "id": "builder",
+    "count": 16,
+    "unique": 16,
+    "durations": [
+      0.07,
+      0.07,
+      0.07,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.07,
+      0.07,
+      0.07,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.07,
+      0.07
+    ],
+    "bounds": [
+      {
+        "minX": 65,
+        "minY": 54,
+        "maxX": 124,
+        "maxY": 168
+      },
+      {
+        "minX": 64,
+        "minY": 55,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 63,
+        "minY": 54,
+        "maxX": 117,
+        "maxY": 168
+      },
+      {
+        "minX": 67,
+        "minY": 53,
+        "maxX": 117,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 52,
+        "maxX": 119,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 52,
+        "maxX": 122,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 53,
+        "maxX": 125,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 54,
+        "maxX": 127,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 55,
+        "maxX": 129,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 56,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 56,
+        "maxX": 125,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 55,
+        "maxX": 122,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 54,
+        "maxX": 119,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 53,
+        "maxX": 117,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 53,
+        "maxX": 118,
+        "maxY": 168
+      },
+      {
+        "minX": 69,
+        "minY": 54,
+        "maxX": 123,
+        "maxY": 168
+      }
+    ],
+    "sourceCells": 576,
+    "blank": 0,
+    "clipped": 0
+  },
+  {
+    "id": "walker",
+    "count": 16,
+    "unique": 16,
+    "durations": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "bounds": [
+      {
+        "minX": 65,
+        "minY": 58,
+        "maxX": 124,
+        "maxY": 168
+      },
+      {
+        "minX": 64,
+        "minY": 58,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 63,
+        "minY": 58,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 67,
+        "minY": 57,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 56,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 56,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 56,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 57,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 59,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 60,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 60,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 60,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 58,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 57,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 57,
+        "maxX": 120,
+        "maxY": 168
+      },
+      {
+        "minX": 69,
+        "minY": 57,
+        "maxX": 123,
+        "maxY": 168
+      }
+    ],
+    "sourceCells": 384,
+    "blank": 0,
+    "clipped": 0
+  },
+  {
+    "id": "spitter",
+    "count": 16,
+    "unique": 16,
+    "durations": [
+      0.08,
+      0.09,
+      0.08,
+      0.08,
+      0.09,
+      0.08,
+      0.08,
+      0.09,
+      0.08,
+      0.08,
+      0.09,
+      0.08,
+      0.08,
+      0.09,
+      0.08,
+      0.08
+    ],
+    "bounds": [
+      {
+        "minX": 65,
+        "minY": 59,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 64,
+        "minY": 59,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 63,
+        "minY": 59,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 67,
+        "minY": 58,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 73,
+        "minY": 57,
+        "maxX": 127,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 57,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 57,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 58,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 61,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 61,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 61,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 61,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 59,
+        "maxX": 127,
+        "maxY": 168
+      },
+      {
+        "minX": 74,
+        "minY": 58,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 72,
+        "minY": 58,
+        "maxX": 128,
+        "maxY": 168
+      },
+      {
+        "minX": 69,
+        "minY": 58,
+        "maxX": 128,
+        "maxY": 168
+      }
+    ],
+    "sourceCells": 320,
+    "blank": 0,
+    "clipped": 0
+  },
+  {
+    "id": "suv",
+    "count": 8,
+    "unique": 8,
+    "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "bounds": [
+      {
+        "minX": 57,
+        "minY": 89,
+        "maxX": 134,
+        "maxY": 172
+      },
+      {
+        "minX": 39,
+        "minY": 88,
+        "maxX": 146,
+        "maxY": 172
+      },
+      {
+        "minX": 18,
+        "minY": 90,
+        "maxX": 167,
+        "maxY": 172
+      },
+      {
+        "minX": 46,
+        "minY": 87,
+        "maxX": 164,
+        "maxY": 172
+      },
+      {
+        "minX": 50,
+        "minY": 90,
+        "maxX": 141,
+        "maxY": 172
+      },
+      {
+        "minX": 43,
+        "minY": 87,
+        "maxX": 159,
+        "maxY": 172
+      },
+      {
+        "minX": 19,
+        "minY": 98,
+        "maxX": 170,
+        "maxY": 172
+      },
+      {
+        "minX": 45,
+        "minY": 89,
+        "maxX": 148,
+        "maxY": 172
+      }
+    ],
+    "sourceCells": 8,
+    "blank": 0,
+    "clipped": 0
+  }
+]

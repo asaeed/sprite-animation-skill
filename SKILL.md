@@ -14,6 +14,7 @@ Deliver assets that look coherent in motion at their actual display size. Appear
 - Prototype one representative asset and the most demanding sequence before expanding. Preserve specifically accepted results; later feedback can narrow an earlier approval.
 - When expanding an accepted rig, reuse its validated source, attachments and bake path; follow the expansion checklist in [references/production.md](references/production.md). Do not restart from a rejected method or assume one good cycle approves every role/view.
 - Read [references/production.md](references/production.md) for methodology. Consult [references/lessons.md](references/lessons.md) only for relevant prior evidence. Project-specific requirements and commands belong in project profiles, such as [references/dead-zone.md](references/dead-zone.md), not in the general recipe.
+- For reference-guided raster sources, use [references/raster-sources.md](references/raster-sources.md). For rigged-source production, use [references/rigged-to-sprites.md](references/rigged-to-sprites.md). Both contain the essential instructions; no other installed skill or original game checkout is required.
 
 ## Choose the Production Method
 
@@ -24,7 +25,7 @@ Choose based on the required motion, not merely the attractiveness of a still:
 - **Rigged 3D rendered to sprites:** useful for repeatable articulation, many directions, attachment constraints, and consistent depth. Model, materials, lighting, and rendered style must match the brief; primitive geometry is not an equivalent substitute for approved illustrated artwork.
 - **Hybrid:** use a tested rig or pose reference to control motion while retaining authored appearance. Validate that the combination actually improves consistency before scaling it up.
 
-Use the available `imagegen` skill when generating or editing raster artwork. Prefer included tools; do not silently switch to a separately billed API or service. Record the actual tool/model when exposed, prompts, references, dimensions, alpha, and cleanup. State capability gaps and untested claims plainly.
+Use an available image-generation/editing tool for raster artwork, following the included raster-source guide and the tool's actual interface. If no image tool is available, work from supplied/licensed source art or request it; do not claim to have generated it. Prefer included tools and do not silently switch to a separately billed API or service. Record the actual tool/model when exposed, prompts, references, dimensions, alpha, and cleanup. State capability gaps and untested claims plainly.
 
 Repeated structural rejection after technical checks is a reason to test another production method, not to repeat a whole-roster parameter sweep. Keep the current working assets available during a pilot.
 
@@ -60,6 +61,6 @@ For irregular frames, use `--frames frames.json`: an array or `{ "frames": [...]
 
 ## Maintain and Deliver
 
-The user authorized ongoing maintenance of this skill. Record specific methods, outcomes, feedback, evidence, scope, and next decisions in the relevant references. Promote only demonstrated conclusions into the general methodology; keep project requirements local, recommendations separate from observations, and failed attempts clearly labeled. This authorization does not cover publication, purchases, unrelated skills, or the separate memory registry.
+When maintenance is requested or explicitly authorized, record specific methods, outcomes, feedback, evidence, scope, and next decisions in the relevant references. Promote only demonstrated conclusions into the general methodology; keep project requirements local, recommendations separate from observations, and failed attempts clearly labeled. Using this skill does not itself authorize publication, purchases, unrelated skill changes, or separate memory-registry updates.
 
 Deliver saved asset paths, a working review link, the production method actually used, validation results, and remaining limitations. Do not promise first-pass perfection or imply a model/service was used when it was not.

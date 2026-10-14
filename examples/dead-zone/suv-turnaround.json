@@ -1,0 +1,114 @@
+[
+  {
+    "id": "suv/idle/S/0",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/SE/1",
+    "rect": {
+      "x": 0,
+      "y": 96,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/E/2",
+    "rect": {
+      "x": 0,
+      "y": 192,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/NE/3",
+    "rect": {
+      "x": 0,
+      "y": 288,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/N/4",
+    "rect": {
+      "x": 0,
+      "y": 384,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/NW/5",
+    "rect": {
+      "x": 0,
+      "y": 480,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/W/6",
+    "rect": {
+      "x": 0,
+      "y": 576,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  },
+  {
+    "id": "suv/idle/SW/7",
+    "rect": {
+      "x": 0,
+      "y": 672,
+      "w": 96,
+      "h": 96
+    },
+    "anchor": {
+      "x": 48,
+      "y": 79
+    },
+    "durationMs": 250
+  }
+]

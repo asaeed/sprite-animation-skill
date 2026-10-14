@@ -2,6 +2,8 @@
 
 This reference is general-purpose. Asset-specific motions, role names, thresholds, camera constants, and rebuild commands belong in project profiles.
 
+Detailed, self-contained method guides: [raster sources](raster-sources.md) and [rigged sources](rigged-to-sprites.md). [Delivered examples](dead-zone.md) are optional visual evidence, not a dependency on another repository.
+
 ## The Method Must Fit the Motion
 
 Before choosing tools, identify the sequence's hardest requirements: perspective changes, occluded surfaces, attachment relationships, articulation, shape changes, and identity consistency. A rig that works for a quiet cycle may fail when the silhouette changes substantially. A beautiful one-shot sheet may fail as a sequential animation.

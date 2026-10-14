@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "previews": [
+    {
+      "id": "soldier",
+      "action": "walk",
+      "direction": "SE",
+      "frames": 16,
+      "fps": 16,
+      "durationSeconds": 1,
+      "width": 192,
+      "height": 192,
+      "image": "soldier.gif",
+      "poster": "soldier.png",
+      "source": "sheets/soldier.png"
+    },
+    {
+      "id": "builder",
+      "action": "walk",
+      "direction": "SE",
+      "frames": 16,
+      "fps": 14,
+      "durationSeconds": 1.1428571428571428,
+      "width": 192,
+      "height": 192,
+      "image": "builder.gif",
+      "poster": "builder.png",
+      "source": "sheets/builder.png"
+    },
+    {
+      "id": "walker",
+      "action": "walk",
+      "direction": "SE",
+      "frames": 16,
+      "fps": 10,
+      "durationSeconds": 1.6,
+      "width": 192,
+      "height": 192,
+      "image": "walker.gif",
+      "poster": "walker.png",
+      "source": "sheets/walker.png"
+    },
+    {
+      "id": "spitter",
+      "action": "walk",
+      "direction": "SE",
+      "frames": 16,
+      "fps": 12,
+      "durationSeconds": 1.3333333333333333,
+      "width": 192,
+      "height": 192,
+      "image": "spitter.gif",
+      "poster": "spitter.png",
+      "source": "sheets/spitter.png"
+    },
+    {
+      "id": "suv",
+      "action": "directional-turnaround",
+      "direction": "all",
+      "frames": 8,
+      "fps": 4,
+      "durationSeconds": 2,
+      "width": 192,
+      "height": 192,
+      "image": "suv.gif",
+      "poster": "suv.png",
+      "source": "sheets/suv.png"
+    }
+  ]
+}
