@@ -1,5 +1,7 @@
 # Sprite Animation Skill
 
+**Play the game:** [Dead Zone RTS on GitHub Pages](https://asaeed.github.io/zombie/)
+
 A shared Claude Code and Codex skill for producing, refining, and validating animated 2D sprite assets. It covers authored frames, segmented 2D rigs, and rigged 3D sources baked into sprite sheets, with separate visual, technical, and runtime checks.
 
 ## Delivered Examples
