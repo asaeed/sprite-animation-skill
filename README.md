@@ -25,8 +25,8 @@ The vehicle has directional poses, not a wheel-animation clip. [PNG posters](exa
 ## Install
 
 ```bash
-git clone https://github.com/asaeed/sprite-animation-skill.git ~/claude/sprite-animation-skill
-cd ~/claude/sprite-animation-skill
+git clone https://github.com/asaeed/sprite-animation-skill.git ~/personal/apps/sprite-animation-skill
+cd ~/personal/apps/sprite-animation-skill
 ./install.sh
 ```
 
